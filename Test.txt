@@ -27,9 +27,49 @@
       "UpsellBrand": null,
       "ApplicableSegment": null,
       "DefaultBrandDetail": null,
-      "Key": "rT5plgTqWDKAf2gsSAAAAA==",
+      "Key": "rc8plgSqWDKATm7TSAAAAA==",
       "BrandID": "1187993",
       "Name": "ECONOMY LIGHT",
+      "AirItineraryDetailsRef": null,
+      "UpSellBrandID": null,
+      "BrandFoundSpecified": false,
+      "UpSellBrandFoundSpecified": false,
+      "BrandedDetailsAvailable": true,
+      "BrandedDetailsAvailableSpecified": true,
+      "Carrier": "BS",
+      "BrandTier": null,
+      "BrandMaintained": null
+    },
+    {
+      "Title": [
+        {
+          "Type": "External",
+          "LanguageCode": "EN",
+          "Value": "Economy Saver"
+        },
+        {
+          "Type": "Short",
+          "LanguageCode": "EN",
+          "Value": "ESAVER"
+        }
+      ],
+      "Text": [
+        {
+          "Type": "Strapline",
+          "LanguageCode": "EN",
+          "Value": "Economy Saver"
+        }
+      ],
+      "ImageLocation": null,
+      "OptionalServices": null,
+      "Rules": null,
+      "ServiceAssociations": null,
+      "UpsellBrand": null,
+      "ApplicableSegment": null,
+      "DefaultBrandDetail": null,
+      "Key": "rc8plgSqWDKAVm7TSAAAAA==",
+      "BrandID": "1187992",
+      "Name": "ECONOMY SAVER",
       "AirItineraryDetailsRef": null,
       "UpSellBrandID": null,
       "BrandFoundSpecified": false,
@@ -49,25 +89,30 @@
       "Leg": [
         {
           "LegDetail": null,
-          "Key": "rT5plgTqWDKAx1gsSAAAAA==",
+          "Key": "rc8plgSqWDKA4k7TSAAAAA==",
           "Group": 0,
           "Origin": "DAC",
           "Destination": "CXB"
         },
         {
           "LegDetail": null,
-          "Key": "rT5plgTqWDKAC2gsSAAAAA==",
+          "Key": "rc8plgSqWDKAJl7TSAAAAA==",
           "Group": 1,
           "Origin": "CXB",
           "Destination": "DAC"
         }
       ],
-      "Key": "rT5plgTqWDKAX2gsSAAAAA=="
+      "Key": "rc8plgSqWDKAGm7TSAAAAA=="
     }
   ],
   "AlternateRouteList": null,
   "AlternateLocationDistanceList": null,
-  "FareInfoMessage": null,
+  "FareInfoMessage": [
+    {
+      "Key": "rc8plgSqWDKAij7TSAAAAA==",
+      "Value": "ADDITIONAL TAXES, SURCHARGES, OR FEES MAY APPLY"
+    }
+  ],
   "Items": [
     {
       "AirPricePoint": [
@@ -78,10 +123,10 @@
               "FareStatus": null,
               "FareInfoRef": [
                 {
-                  "Key": "rT5plgTqWDKAZ1gsSAAAAA=="
+                  "Key": "rc8plgSqWDKAgk7TSAAAAA=="
                 },
                 {
-                  "Key": "rT5plgTqWDKAg1gsSAAAAA=="
+                  "Key": "rc8plgSqWDKAnk7TSAAAAA=="
                 }
               ],
               "BookingInfo": null,
@@ -89,7 +134,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAb1gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAik7TSAAAAA==",
                   "Category": "BD",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -108,7 +153,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAc1gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAjk7TSAAAAA==",
                   "Category": "OW",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -127,7 +172,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAd1gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAkk7TSAAAAA==",
                   "Category": "P7",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -146,7 +191,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAe1gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAlk7TSAAAAA==",
                   "Category": "P8",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -165,7 +210,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAf1gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAmk7TSAAAAA==",
                   "Category": "E5",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -203,24 +248,8 @@
               "BookingTravelerRef": null,
               "WaiverCode": null,
               "PaymentRef": null,
-              "ChangePenalty": [
-                {
-                  "Amount": null,
-                  "Percentage": "0.00",
-                  "PenaltyApplies": 0,
-                  "PenaltyAppliesSpecified": true,
-                  "NoShowSpecified": false
-                }
-              ],
-              "CancelPenalty": [
-                {
-                  "Amount": null,
-                  "Percentage": "0.00",
-                  "PenaltyApplies": 0,
-                  "PenaltyAppliesSpecified": true,
-                  "NoShowSpecified": false
-                }
-              ],
+              "ChangePenalty": null,
+              "CancelPenalty": null,
               "NoShowPenalty": null,
               "MostRestrictivePenalties": null,
               "FeeInfo": null,
@@ -238,8 +267,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAt0gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA0j7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -247,7 +276,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAh1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAok7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -256,8 +285,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAv0gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA2j7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -265,7 +294,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAj1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAqk7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -274,8 +303,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAx0gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA4j7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -283,7 +312,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAl1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAsk7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -292,8 +321,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAz0gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA6j7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -301,7 +330,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAn1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAuk7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -310,8 +339,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKA10gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA8j7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -319,7 +348,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAp1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAwk7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -328,8 +357,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKA30gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA+j7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -337,7 +366,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAr1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAyk7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -346,8 +375,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKA50gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAAk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -355,7 +384,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAt1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKA0k7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -364,8 +393,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKA70gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKACk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -373,11 +402,11 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAv1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKA2k7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     }
                   ],
-                  "LegRef": "rT5plgTqWDKAx1gsSAAAAA==",
+                  "LegRef": "rc8plgSqWDKA4k7TSAAAAA==",
                   "Origin": "DAC",
                   "Destination": "CXB"
                 },
@@ -389,8 +418,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKA90gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAEk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -398,7 +427,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAy1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKA5k7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -407,8 +436,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKA/0gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAGk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -416,7 +445,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKA01gsSAAAAA==",
+                      "Key": "rc8plgSqWDKA7k7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -425,8 +454,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAB1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAIk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -434,7 +463,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKA21gsSAAAAA==",
+                      "Key": "rc8plgSqWDKA9k7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -443,8 +472,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAD1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAKk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -452,7 +481,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKA41gsSAAAAA==",
+                      "Key": "rc8plgSqWDKA/k7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -461,8 +490,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAF1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAMk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -470,7 +499,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKA61gsSAAAAA==",
+                      "Key": "rc8plgSqWDKABl7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -479,8 +508,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAH1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAOk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -488,7 +517,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKA81gsSAAAAA==",
+                      "Key": "rc8plgSqWDKADl7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -497,8 +526,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAJ1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAQk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -506,7 +535,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKA+1gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAFl7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     },
                     {
@@ -515,8 +544,8 @@
                           "BookingCode": "I",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAL1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKASk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -524,11 +553,11 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAA2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAHl7TSAAAAA==",
                       "TravelTime": "P0DT1H0M0S"
                     }
                   ],
-                  "LegRef": "rT5plgTqWDKAC2gsSAAAAA==",
+                  "LegRef": "rc8plgSqWDKAJl7TSAAAAA==",
                   "Origin": "CXB",
                   "Destination": "DAC"
                 }
@@ -541,7 +570,7 @@
               "Commission": null,
               "Origin": null,
               "Destination": null,
-              "Key": "rT5plgTqWDKAa1gsSAAAAA==",
+              "Key": "rc8plgSqWDKAhk7TSAAAAA==",
               "CommandKey": null,
               "TotalPrice": "BDT9599",
               "BasePrice": "BDT8150",
@@ -559,8 +588,7 @@
               "IncludesVATSpecified": false,
               "ExchangeAmount": null,
               "ForfeitAmount": null,
-              "Refundable": true,
-              "RefundableSpecified": true,
+              "RefundableSpecified": false,
               "ExchangeableSpecified": false,
               "LatestTicketingTime": "2023-05-25T23:59:00.000+06:00",
               "PricingMethod": 3,
@@ -585,9 +613,19 @@
           ],
           "AirPricingResultMessage": null,
           "FeeInfo": null,
-          "FareNote": null,
+          "FareNote": [
+            {
+              "Key": "rc8plgSqWDKAjj7TSAAAAA==",
+              "Precedence": null,
+              "NoteName": null,
+              "FareInfoMessageRef": "rc8plgSqWDKAij7TSAAAAA==",
+              "ElStatSpecified": false,
+              "KeyOverrideSpecified": false,
+              "Value": null
+            }
+          ],
           "TaxInfo": null,
-          "Key": "rT5plgTqWDKAY2gsSAAAAA==",
+          "Key": "rc8plgSqWDKAHm7TSAAAAA==",
           "TotalPrice": "BDT9599",
           "BasePrice": "BDT8150",
           "ApproximateTotalPrice": "BDT9599",
@@ -607,10 +645,10 @@
               "FareStatus": null,
               "FareInfoRef": [
                 {
-                  "Key": "rT5plgTqWDKAD2gsSAAAAA=="
+                  "Key": "rc8plgSqWDKAKl7TSAAAAA=="
                 },
                 {
-                  "Key": "rT5plgTqWDKAK2gsSAAAAA=="
+                  "Key": "rc8plgSqWDKARl7TSAAAAA=="
                 }
               ],
               "BookingInfo": null,
@@ -618,7 +656,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAF2gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAMl7TSAAAAA==",
                   "Category": "BD",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -637,7 +675,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAG2gsSAAAAA==",
+                  "Key": "rc8plgSqWDKANl7TSAAAAA==",
                   "Category": "OW",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -656,7 +694,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAH2gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAOl7TSAAAAA==",
                   "Category": "P7",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -675,7 +713,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAI2gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAPl7TSAAAAA==",
                   "Category": "P8",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -694,7 +732,7 @@
                 {
                   "TaxDetail": null,
                   "IncludedInBase": null,
-                  "Key": "rT5plgTqWDKAJ2gsSAAAAA==",
+                  "Key": "rc8plgSqWDKAQl7TSAAAAA==",
                   "Category": "E5",
                   "CarrierDefinedCategory": null,
                   "SegmentRef": null,
@@ -732,22 +770,8 @@
               "BookingTravelerRef": null,
               "WaiverCode": null,
               "PaymentRef": null,
-              "ChangePenalty": [
-                {
-                  "Amount": null,
-                  "Percentage": "0.00",
-                  "PenaltyAppliesSpecified": false,
-                  "NoShowSpecified": false
-                }
-              ],
-              "CancelPenalty": [
-                {
-                  "Amount": null,
-                  "Percentage": "0.00",
-                  "PenaltyAppliesSpecified": false,
-                  "NoShowSpecified": false
-                }
-              ],
+              "ChangePenalty": null,
+              "CancelPenalty": null,
               "NoShowPenalty": null,
               "MostRestrictivePenalties": null,
               "FeeInfo": null,
@@ -765,8 +789,8 @@
                           "BookingCode": "G",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAD2gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAN1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAKl7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAUk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -774,7 +798,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAL2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKASl7TSAAAAA==",
                       "TravelTime": "P0DT1H15M0S"
                     },
                     {
@@ -783,8 +807,8 @@
                           "BookingCode": "G",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAD2gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAP1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAKl7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAWk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -792,7 +816,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAN2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAUl7TSAAAAA==",
                       "TravelTime": "P0DT1H15M0S"
                     },
                     {
@@ -801,8 +825,8 @@
                           "BookingCode": "G",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAD2gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAR1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKAKl7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAYk7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -810,11 +834,11 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAP2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAWl7TSAAAAA==",
                       "TravelTime": "P0DT1H15M0S"
                     }
                   ],
-                  "LegRef": "rT5plgTqWDKAx1gsSAAAAA==",
+                  "LegRef": "rc8plgSqWDKA4k7TSAAAAA==",
                   "Origin": "DAC",
                   "Destination": "CXB"
                 },
@@ -826,8 +850,8 @@
                           "BookingCode": "G",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAK2gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAT1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKARl7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAak7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -835,7 +859,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAR2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAYl7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -844,8 +868,8 @@
                           "BookingCode": "G",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAK2gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAV1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKARl7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAck7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -853,7 +877,7 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAT2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAal7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     },
                     {
@@ -862,8 +886,8 @@
                           "BookingCode": "G",
                           "BookingCount": "9",
                           "CabinClass": "Economy",
-                          "FareInfoRef": "rT5plgTqWDKAK2gsSAAAAA==",
-                          "SegmentRef": "rT5plgTqWDKAX1gsSAAAAA==",
+                          "FareInfoRef": "rc8plgSqWDKARl7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAek7TSAAAAA==",
                           "CouponRef": null,
                           "AirItinerarySolutionRef": null,
                           "HostTokenRef": null,
@@ -871,11 +895,11 @@
                         }
                       ],
                       "Connection": null,
-                      "Key": "rT5plgTqWDKAV2gsSAAAAA==",
+                      "Key": "rc8plgSqWDKAcl7TSAAAAA==",
                       "TravelTime": "P0DT1H5M0S"
                     }
                   ],
-                  "LegRef": "rT5plgTqWDKAC2gsSAAAAA==",
+                  "LegRef": "rc8plgSqWDKAJl7TSAAAAA==",
                   "Origin": "CXB",
                   "Destination": "DAC"
                 }
@@ -888,7 +912,7 @@
               "Commission": null,
               "Origin": null,
               "Destination": null,
-              "Key": "rT5plgTqWDKAE2gsSAAAAA==",
+              "Key": "rc8plgSqWDKALl7TSAAAAA==",
               "CommandKey": null,
               "TotalPrice": "BDT9999",
               "BasePrice": "BDT8550",
@@ -906,8 +930,7 @@
               "IncludesVATSpecified": false,
               "ExchangeAmount": null,
               "ForfeitAmount": null,
-              "Refundable": true,
-              "RefundableSpecified": true,
+              "RefundableSpecified": false,
               "ExchangeableSpecified": false,
               "LatestTicketingTime": "2023-05-24T23:59:00.000+06:00",
               "PricingMethod": 11,
@@ -932,13 +955,533 @@
           ],
           "AirPricingResultMessage": null,
           "FeeInfo": null,
-          "FareNote": null,
+          "FareNote": [
+            {
+              "Key": "rc8plgSqWDKApj7TSAAAAA==",
+              "Precedence": null,
+              "NoteName": null,
+              "FareInfoMessageRef": "rc8plgSqWDKAij7TSAAAAA==",
+              "ElStatSpecified": false,
+              "KeyOverrideSpecified": false,
+              "Value": null
+            }
+          ],
           "TaxInfo": null,
-          "Key": "rT5plgTqWDKAZ2gsSAAAAA==",
+          "Key": "rc8plgSqWDKAIm7TSAAAAA==",
           "TotalPrice": "BDT9999",
           "BasePrice": "BDT8550",
           "ApproximateTotalPrice": "BDT9999",
           "ApproximateBasePrice": "BDT8550",
+          "EquivalentBasePrice": null,
+          "Taxes": "BDT1449",
+          "Fees": null,
+          "Services": null,
+          "ApproximateTaxes": "BDT1449",
+          "ApproximateFees": null,
+          "CompleteItinerary": true
+        },
+        {
+          "AirPricingInfo": [
+            {
+              "FareInfo": null,
+              "FareStatus": null,
+              "FareInfoRef": [
+                {
+                  "Key": "rc8plgSqWDKAel7TSAAAAA=="
+                },
+                {
+                  "Key": "rc8plgSqWDKAll7TSAAAAA=="
+                }
+              ],
+              "BookingInfo": null,
+              "TaxInfo": [
+                {
+                  "TaxDetail": null,
+                  "IncludedInBase": null,
+                  "Key": "rc8plgSqWDKAgl7TSAAAAA==",
+                  "Category": "BD",
+                  "CarrierDefinedCategory": null,
+                  "SegmentRef": null,
+                  "FlightDetailsRef": null,
+                  "CouponRef": null,
+                  "Amount": "BDT50",
+                  "OriginAirport": null,
+                  "DestinationAirport": null,
+                  "CountryCode": null,
+                  "FareInfoRef": null,
+                  "TaxExemptedSpecified": false,
+                  "ProviderCode": null,
+                  "SupplierCode": null,
+                  "Text": null
+                },
+                {
+                  "TaxDetail": null,
+                  "IncludedInBase": null,
+                  "Key": "rc8plgSqWDKAhl7TSAAAAA==",
+                  "Category": "OW",
+                  "CarrierDefinedCategory": null,
+                  "SegmentRef": null,
+                  "FlightDetailsRef": null,
+                  "CouponRef": null,
+                  "Amount": "BDT1000",
+                  "OriginAirport": null,
+                  "DestinationAirport": null,
+                  "CountryCode": null,
+                  "FareInfoRef": null,
+                  "TaxExemptedSpecified": false,
+                  "ProviderCode": null,
+                  "SupplierCode": null,
+                  "Text": null
+                },
+                {
+                  "TaxDetail": null,
+                  "IncludedInBase": null,
+                  "Key": "rc8plgSqWDKAil7TSAAAAA==",
+                  "Category": "P7",
+                  "CarrierDefinedCategory": null,
+                  "SegmentRef": null,
+                  "FlightDetailsRef": null,
+                  "CouponRef": null,
+                  "Amount": "BDT200",
+                  "OriginAirport": null,
+                  "DestinationAirport": null,
+                  "CountryCode": null,
+                  "FareInfoRef": null,
+                  "TaxExemptedSpecified": false,
+                  "ProviderCode": null,
+                  "SupplierCode": null,
+                  "Text": null
+                },
+                {
+                  "TaxDetail": null,
+                  "IncludedInBase": null,
+                  "Key": "rc8plgSqWDKAjl7TSAAAAA==",
+                  "Category": "P8",
+                  "CarrierDefinedCategory": null,
+                  "SegmentRef": null,
+                  "FlightDetailsRef": null,
+                  "CouponRef": null,
+                  "Amount": "BDT140",
+                  "OriginAirport": null,
+                  "DestinationAirport": null,
+                  "CountryCode": null,
+                  "FareInfoRef": null,
+                  "TaxExemptedSpecified": false,
+                  "ProviderCode": null,
+                  "SupplierCode": null,
+                  "Text": null
+                },
+                {
+                  "TaxDetail": null,
+                  "IncludedInBase": null,
+                  "Key": "rc8plgSqWDKAkl7TSAAAAA==",
+                  "Category": "E5",
+                  "CarrierDefinedCategory": null,
+                  "SegmentRef": null,
+                  "FlightDetailsRef": null,
+                  "CouponRef": null,
+                  "Amount": "BDT59",
+                  "OriginAirport": null,
+                  "DestinationAirport": null,
+                  "CountryCode": null,
+                  "FareInfoRef": null,
+                  "TaxExemptedSpecified": false,
+                  "ProviderCode": null,
+                  "SupplierCode": null,
+                  "Text": null
+                }
+              ],
+              "FareCalc": "DAC BS CXB 4374ODOM6M BS DAC 4374ODOM6M BDT8748END",
+              "PassengerType": [
+                {
+                  "FareGuaranteeInfo": null,
+                  "Name": null,
+                  "LoyaltyCard": null,
+                  "DiscountCard": null,
+                  "PersonalGeography": null,
+                  "Code": "ADT",
+                  "Age": null,
+                  "DOBSpecified": false,
+                  "Gender": null,
+                  "PricePTCOnlySpecified": false,
+                  "BookingTravelerRef": null,
+                  "AccompaniedPassenger": false,
+                  "ResidencyTypeSpecified": false
+                }
+              ],
+              "BookingTravelerRef": null,
+              "WaiverCode": null,
+              "PaymentRef": null,
+              "ChangePenalty": null,
+              "CancelPenalty": null,
+              "NoShowPenalty": null,
+              "MostRestrictivePenalties": null,
+              "FeeInfo": null,
+              "Adjustment": null,
+              "Yield": null,
+              "AirPricingModifiers": null,
+              "TicketingModifiersRef": null,
+              "AirSegmentPricingModifiers": null,
+              "FlightOptionsList": [
+                {
+                  "Option": [
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA0j7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAml7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA2j7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAol7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA4j7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAql7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA6j7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAsl7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA8j7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAul7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKA+j7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAwl7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAAk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAyl7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKACk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKA0l7TSAAAAA==",
+                      "TravelTime": "P0DT1H5M0S"
+                    }
+                  ],
+                  "LegRef": "rc8plgSqWDKA4k7TSAAAAA==",
+                  "Origin": "DAC",
+                  "Destination": "CXB"
+                },
+                {
+                  "Option": [
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAEk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKA2l7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAGk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKA4l7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAIk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKA6l7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAKk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKA8l7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAMk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKA+l7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAOk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAAm7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKAQk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKACm7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    },
+                    {
+                      "BookingInfo": [
+                        {
+                          "BookingCode": "O",
+                          "BookingCount": "9",
+                          "CabinClass": "Economy",
+                          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
+                          "SegmentRef": "rc8plgSqWDKASk7TSAAAAA==",
+                          "CouponRef": null,
+                          "AirItinerarySolutionRef": null,
+                          "HostTokenRef": null,
+                          "TaxInfoRef": null
+                        }
+                      ],
+                      "Connection": null,
+                      "Key": "rc8plgSqWDKAEm7TSAAAAA==",
+                      "TravelTime": "P0DT1H0M0S"
+                    }
+                  ],
+                  "LegRef": "rc8plgSqWDKAJl7TSAAAAA==",
+                  "Origin": "CXB",
+                  "Destination": "DAC"
+                }
+              ],
+              "BaggageAllowances": null,
+              "FareRulesFilter": null,
+              "PolicyCodesList": null,
+              "PriceChange": null,
+              "ActionDetails": null,
+              "Commission": null,
+              "Origin": null,
+              "Destination": null,
+              "Key": "rc8plgSqWDKAfl7TSAAAAA==",
+              "CommandKey": null,
+              "TotalPrice": "BDT10197",
+              "BasePrice": "BDT8748",
+              "ApproximateTotalPrice": "BDT10197",
+              "ApproximateBasePrice": "BDT8748",
+              "EquivalentBasePrice": null,
+              "Taxes": "BDT1449",
+              "Fees": null,
+              "Services": null,
+              "ApproximateTaxes": null,
+              "ApproximateFees": null,
+              "ProviderCode": "1G",
+              "SupplierCode": null,
+              "AmountType": null,
+              "IncludesVATSpecified": false,
+              "ExchangeAmount": null,
+              "ForfeitAmount": null,
+              "RefundableSpecified": false,
+              "ExchangeableSpecified": false,
+              "LatestTicketingTime": "2023-05-25T23:59:00.000+06:00",
+              "PricingMethod": 3,
+              "Checksum": null,
+              "ETicketabilitySpecified": false,
+              "PlatingCarrier": "BS",
+              "ProviderReservationInfoRef": null,
+              "AirPricingInfoGroupSpecified": false,
+              "TotalNetPrice": null,
+              "TicketedSpecified": false,
+              "PricingType": null,
+              "TrueLastDateToTicket": null,
+              "ElStatSpecified": false,
+              "KeyOverrideSpecified": false,
+              "InPolicySpecified": false,
+              "PreferredOptionSpecified": false,
+              "FareCalculationInd": null,
+              "Cat35IndicatorSpecified": false
+            }
+          ],
+          "AirPricingResultMessage": null,
+          "FeeInfo": null,
+          "FareNote": null,
+          "TaxInfo": null,
+          "Key": "rc8plgSqWDKAJm7TSAAAAA==",
+          "TotalPrice": "BDT10197",
+          "BasePrice": "BDT8748",
+          "ApproximateTotalPrice": "BDT10197",
+          "ApproximateBasePrice": "BDT8748",
           "EquivalentBasePrice": null,
           "Taxes": "BDT1449",
           "Fees": null,
@@ -961,7 +1504,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAu0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA1j7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T07:30:00.000+06:00",
@@ -982,7 +1525,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAw0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA3j7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T09:45:00.000+06:00",
@@ -1003,7 +1546,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAy0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA5j7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T10:40:00.000+06:00",
@@ -1024,7 +1567,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKA00gsSAAAAA==",
+      "Key": "rc8plgSqWDKA7j7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T11:15:00.000+06:00",
@@ -1045,7 +1588,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKA20gsSAAAAA==",
+      "Key": "rc8plgSqWDKA9j7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T12:50:00.000+06:00",
@@ -1066,7 +1609,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKA40gsSAAAAA==",
+      "Key": "rc8plgSqWDKA/j7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T14:00:00.000+06:00",
@@ -1087,7 +1630,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKA60gsSAAAAA==",
+      "Key": "rc8plgSqWDKABk7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T15:55:00.000+06:00",
@@ -1108,7 +1651,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKA80gsSAAAAA==",
+      "Key": "rc8plgSqWDKADk7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T16:45:00.000+06:00",
@@ -1129,7 +1672,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKA+0gsSAAAAA==",
+      "Key": "rc8plgSqWDKAFk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T09:05:00.000+06:00",
@@ -1150,7 +1693,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAA1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAHk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T11:20:00.000+06:00",
@@ -1171,7 +1714,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAC1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAJk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T12:15:00.000+06:00",
@@ -1192,7 +1735,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAE1gsSAAAAA==",
+      "Key": "rc8plgSqWDKALk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T12:50:00.000+06:00",
@@ -1213,7 +1756,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAG1gsSAAAAA==",
+      "Key": "rc8plgSqWDKANk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T14:25:00.000+06:00",
@@ -1234,7 +1777,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAI1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAPk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T15:35:00.000+06:00",
@@ -1255,7 +1798,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAK1gsSAAAAA==",
+      "Key": "rc8plgSqWDKARk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T17:30:00.000+06:00",
@@ -1276,7 +1819,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAM1gsSAAAAA==",
+      "Key": "rc8plgSqWDKATk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T18:20:00.000+06:00",
@@ -1297,7 +1840,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAO1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAVk7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T08:30:00.000+06:00",
@@ -1318,7 +1861,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAQ1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAXk7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T12:00:00.000+06:00",
@@ -1339,7 +1882,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAS1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAZk7TSAAAAA==",
       "Origin": "DAC",
       "Destination": "CXB",
       "DepartureTime": "2023-07-14T15:15:00.000+06:00",
@@ -1360,7 +1903,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAU1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAbk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T10:10:00.000+06:00",
@@ -1381,7 +1924,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAW1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAdk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T13:40:00.000+06:00",
@@ -1402,7 +1945,7 @@
       "Connection": null,
       "Meals": null,
       "InFlightServices": null,
-      "Key": "rT5plgTqWDKAY1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAfk7TSAAAAA==",
       "Origin": "CXB",
       "Destination": "DAC",
       "DepartureTime": "2023-07-28T16:55:00.000+06:00",
@@ -1435,7 +1978,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAu0gsSAAAAA=="
+          "Key": "rc8plgSqWDKA1j7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1485,7 +2028,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAt0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA0j7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1507,7 +2050,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAw0gsSAAAAA=="
+          "Key": "rc8plgSqWDKA3j7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1557,7 +2100,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAv0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA2j7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1579,7 +2122,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAy0gsSAAAAA=="
+          "Key": "rc8plgSqWDKA5j7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1629,7 +2172,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAx0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA4j7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1651,7 +2194,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKA00gsSAAAAA=="
+          "Key": "rc8plgSqWDKA7j7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1701,7 +2244,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAz0gsSAAAAA==",
+      "Key": "rc8plgSqWDKA6j7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1723,7 +2266,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKA20gsSAAAAA=="
+          "Key": "rc8plgSqWDKA9j7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1773,7 +2316,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKA10gsSAAAAA==",
+      "Key": "rc8plgSqWDKA8j7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1795,7 +2338,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKA40gsSAAAAA=="
+          "Key": "rc8plgSqWDKA/j7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1845,7 +2388,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKA30gsSAAAAA==",
+      "Key": "rc8plgSqWDKA+j7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1867,7 +2410,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKA60gsSAAAAA=="
+          "Key": "rc8plgSqWDKABk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1917,7 +2460,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKA50gsSAAAAA==",
+      "Key": "rc8plgSqWDKAAk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -1939,7 +2482,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKA80gsSAAAAA=="
+          "Key": "rc8plgSqWDKADk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -1989,7 +2532,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKA70gsSAAAAA==",
+      "Key": "rc8plgSqWDKACk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2011,7 +2554,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKA+0gsSAAAAA=="
+          "Key": "rc8plgSqWDKAFk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2061,7 +2604,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKA90gsSAAAAA==",
+      "Key": "rc8plgSqWDKAEk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2083,7 +2626,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAA1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAHk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2133,7 +2676,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKA/0gsSAAAAA==",
+      "Key": "rc8plgSqWDKAGk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2155,7 +2698,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAC1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAJk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2205,7 +2748,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAB1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAIk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2227,7 +2770,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAE1gsSAAAAA=="
+          "Key": "rc8plgSqWDKALk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2277,7 +2820,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAD1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAKk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2299,7 +2842,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAG1gsSAAAAA=="
+          "Key": "rc8plgSqWDKANk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2349,7 +2892,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAF1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAMk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2371,7 +2914,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAI1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAPk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2421,7 +2964,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAH1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAOk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2443,7 +2986,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAK1gsSAAAAA=="
+          "Key": "rc8plgSqWDKARk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2493,7 +3036,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAJ1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAQk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2515,7 +3058,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAM1gsSAAAAA=="
+          "Key": "rc8plgSqWDKATk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2565,7 +3108,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAL1gsSAAAAA==",
+      "Key": "rc8plgSqWDKASk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2587,7 +3130,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAO1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAVk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2637,7 +3180,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAN1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAUk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2659,7 +3202,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAQ1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAXk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2709,7 +3252,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAP1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAWk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2731,7 +3274,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAS1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAZk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2781,7 +3324,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAR1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAYk7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2803,7 +3346,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAU1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAbk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2853,7 +3396,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAT1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAak7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2875,7 +3418,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAW1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAdk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2925,7 +3468,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAV1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAck7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -2947,7 +3490,7 @@
       "FlightDetails": null,
       "FlightDetailsRef": [
         {
-          "Key": "rT5plgTqWDKAY1gsSAAAAA=="
+          "Key": "rc8plgSqWDKAfk7TSAAAAA=="
         }
       ],
       "AlternateLocationDistanceRef": null,
@@ -2997,7 +3540,7 @@
       "ScheduleChange": false,
       "BrandIndicator": null,
       "SegmentRemark": null,
-      "Key": "rT5plgTqWDKAX1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAek7TSAAAAA==",
       "Status": null,
       "PassiveSpecified": false,
       "TravelOrder": null,
@@ -3023,7 +3566,7 @@
         }
       },
       "FareRuleKey": {
-        "FareInfoRef": "rT5plgTqWDKAZ1gsSAAAAA==",
+        "FareInfoRef": "rc8plgSqWDKAgk7TSAAAAA==",
         "ProviderCode": "1G",
         "Value": "gws-eJxNjrEOwjAMRD+muv3spoQxTdwKhoaBDnTh/z8DJwUJS/Zd8hLbKSWljpx0TP8x4D3kJ7LtQAU9yysjME4QPxyg6IK7PbbLht4hSnBQOzxV2jMWLcEFK1c9UQscvdpcnLH3dRW0uWjWf+BnlpvbOtuejUpe/U6/iBG+5gfwKiqA"
       },
@@ -3036,14 +3579,17 @@
         "OptionalServices": null,
         "Rules": null,
         "ServiceAssociations": null,
-        "UpsellBrand": null,
+        "UpsellBrand": {
+          "FareBasis": "ODOM6M",
+          "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA=="
+        },
         "ApplicableSegment": null,
         "DefaultBrandDetail": null,
-        "Key": "rT5plgTqWDKAb2gsSAAAAA==",
+        "Key": "rc8plgSqWDKALm7TSAAAAA==",
         "BrandID": "1187993",
         "Name": null,
         "AirItineraryDetailsRef": null,
-        "UpSellBrandID": null,
+        "UpSellBrandID": "1187992",
         "BrandFoundSpecified": false,
         "UpSellBrandFoundSpecified": false,
         "BrandedDetailsAvailableSpecified": false,
@@ -3053,15 +3599,25 @@
       },
       "Commission": null,
       "FareAttributes": null,
-      "ChangePenalty": null,
-      "CancelPenalty": null,
+      "ChangePenalty": {
+        "Amount": null,
+        "Percentage": "0.00",
+        "PenaltyAppliesSpecified": false,
+        "NoShowSpecified": false
+      },
+      "CancelPenalty": {
+        "Amount": null,
+        "Percentage": "0.00",
+        "PenaltyAppliesSpecified": false,
+        "NoShowSpecified": false
+      },
       "FareRulesFilter": null,
-      "Key": "rT5plgTqWDKAZ1gsSAAAAA==",
+      "Key": "rc8plgSqWDKAgk7TSAAAAA==",
       "FareBasis": "IDOM6M",
       "PassengerTypeCode": "ADT",
       "Origin": "DAC",
       "Destination": "CXB",
-      "EffectiveDate": "2023-05-23T09:37:00.000+06:00",
+      "EffectiveDate": "2023-05-23T09:47:00.000+06:00",
       "TravelDateSpecified": false,
       "DepartureDate": "2023-07-14T00:00:00",
       "DepartureDateSpecified": true,
@@ -3103,9 +3659,220 @@
         }
       },
       "FareRuleKey": {
-        "FareInfoRef": "rT5plgTqWDKAg1gsSAAAAA==",
+        "FareInfoRef": "rc8plgSqWDKAnk7TSAAAAA==",
         "ProviderCode": "1G",
         "Value": "gws-eJxNjsESgyAMRD/G2fsStXhEQKc9SA/1UC/9/8/ognammUl24UGSEILReo7Wh//o8OniCzHvQAGVeU4Y6EeYDgfobMEjP7fbhtbB2yRQGjzV1WdMlgYJVq7W0FEUV03vKMbWV+pQ56Ja/cDPLHfZMuc9Zho56c4uRA+t+QXvuCqR"
+      },
+      "FareRuleFailureInfo": null,
+      "FareRemarkRef": null,
+      "Brand": {
+        "Title": null,
+        "Text": null,
+        "ImageLocation": null,
+        "OptionalServices": null,
+        "Rules": null,
+        "ServiceAssociations": null,
+        "UpsellBrand": {
+          "FareBasis": "ODOM6M",
+          "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA=="
+        },
+        "ApplicableSegment": null,
+        "DefaultBrandDetail": null,
+        "Key": "rc8plgSqWDKANm7TSAAAAA==",
+        "BrandID": "1187993",
+        "Name": null,
+        "AirItineraryDetailsRef": null,
+        "UpSellBrandID": "1187992",
+        "BrandFoundSpecified": false,
+        "UpSellBrandFoundSpecified": false,
+        "BrandedDetailsAvailableSpecified": false,
+        "Carrier": null,
+        "BrandTier": "0001",
+        "BrandMaintained": null
+      },
+      "Commission": null,
+      "FareAttributes": null,
+      "ChangePenalty": {
+        "Amount": null,
+        "Percentage": "0.00",
+        "PenaltyAppliesSpecified": false,
+        "NoShowSpecified": false
+      },
+      "CancelPenalty": {
+        "Amount": null,
+        "Percentage": "0.00",
+        "PenaltyAppliesSpecified": false,
+        "NoShowSpecified": false
+      },
+      "FareRulesFilter": null,
+      "Key": "rc8plgSqWDKAnk7TSAAAAA==",
+      "FareBasis": "IDOM6M",
+      "PassengerTypeCode": "ADT",
+      "Origin": "CXB",
+      "Destination": "DAC",
+      "EffectiveDate": "2023-05-23T09:47:00.000+06:00",
+      "TravelDateSpecified": false,
+      "DepartureDate": "2023-07-28T00:00:00",
+      "DepartureDateSpecified": true,
+      "Amount": "BDT4075",
+      "PrivateFareSpecified": false,
+      "NegotiatedFare": false,
+      "NegotiatedFareSpecified": true,
+      "TourCode": null,
+      "WaiverCode": null,
+      "NotValidBeforeSpecified": false,
+      "NotValidAfter": "2024-01-14T00:00:00",
+      "NotValidAfterSpecified": true,
+      "PseudoCityCode": null,
+      "FareFamily": null,
+      "PromotionalFareSpecified": false,
+      "CarCode": null,
+      "ValueCode": null,
+      "ElStatSpecified": false,
+      "KeyOverrideSpecified": false,
+      "BulkTicketSpecified": false,
+      "InclusiveTourSpecified": false,
+      "Value": null,
+      "SupplierCode": null,
+      "TaxAmount": null
+    },
+    {
+      "FareTicketDesignator": null,
+      "TicketingCode": null,
+      "FareSurcharge": null,
+      "AccountCode": null,
+      "ContractCode": null,
+      "Endorsement": null,
+      "BaggageAllowance": {
+        "NumberOfPieces": null,
+        "MaxWeight": {
+          "Value": "20",
+          "Unit": 0,
+          "UnitSpecified": true
+        }
+      },
+      "FareRuleKey": {
+        "FareInfoRef": "rc8plgSqWDKAKl7TSAAAAA==",
+        "ProviderCode": "1G",
+        "Value": "gws-eJxNT10PwiAM/DHm3guMAW/7YM4lOhOzqHvx//8Mr6DGEkrTu16PruusWCfeuu4/DsDOg9yP5wUrDJgaEq0NQFzcpA0xytFEHtY+b3eXTHzk60XEi4iJKf3GypQ2cRhmDHkrErzjcyApeCqt1BKXWsxUPN5QzAXTEFgLWLOuFJnaseGD3OamQhrYS1ZHXFZ061K8+CvRAL7FdGKpxqvnyJ7/QBJAm2+NAD4c"
+      },
+      "FareRuleFailureInfo": null,
+      "FareRemarkRef": null,
+      "Brand": null,
+      "Commission": null,
+      "FareAttributes": null,
+      "ChangePenalty": null,
+      "CancelPenalty": null,
+      "FareRulesFilter": null,
+      "Key": "rc8plgSqWDKAKl7TSAAAAA==",
+      "FareBasis": "GDACFR",
+      "PassengerTypeCode": "ADT",
+      "Origin": "DAC",
+      "Destination": "CXB",
+      "EffectiveDate": "2023-05-23T09:47:00.000+06:00",
+      "TravelDateSpecified": false,
+      "DepartureDate": "2023-07-14T00:00:00",
+      "DepartureDateSpecified": true,
+      "Amount": "BDT4275",
+      "PrivateFare": 3,
+      "PrivateFareSpecified": true,
+      "NegotiatedFare": false,
+      "NegotiatedFareSpecified": true,
+      "TourCode": null,
+      "WaiverCode": null,
+      "NotValidBeforeSpecified": false,
+      "NotValidAfterSpecified": false,
+      "PseudoCityCode": "8I3E",
+      "FareFamily": null,
+      "PromotionalFareSpecified": false,
+      "CarCode": null,
+      "ValueCode": null,
+      "ElStatSpecified": false,
+      "KeyOverrideSpecified": false,
+      "BulkTicketSpecified": false,
+      "InclusiveTourSpecified": false,
+      "Value": null,
+      "SupplierCode": null,
+      "TaxAmount": null
+    },
+    {
+      "FareTicketDesignator": null,
+      "TicketingCode": null,
+      "FareSurcharge": null,
+      "AccountCode": null,
+      "ContractCode": null,
+      "Endorsement": null,
+      "BaggageAllowance": {
+        "NumberOfPieces": null,
+        "MaxWeight": {
+          "Value": "20",
+          "Unit": 0,
+          "UnitSpecified": true
+        }
+      },
+      "FareRuleKey": {
+        "FareInfoRef": "rc8plgSqWDKARl7TSAAAAA==",
+        "ProviderCode": "1G",
+        "Value": "gws-eJxNT9EOwiAM/Jjl3rsCA97YxpxLFBOzqHvx/z/Dlk1jCUdz1/ZKSomJDTk26T8aYJOD3I+XBQUMASuFzB4Ii5mUoFZrFKQOpc/rw8Q2PPPtSuSIqA0x/tpql5JohhlDXusIudps2TtxKTKLTOwwC3m6oy7nOYhQqrijWhJN3WjlQe6yrdJWJA4cX4Oa1bm7Kd7yK9IAvsl0llQX33cOwrlDIg9Z8wONhz4u"
+      },
+      "FareRuleFailureInfo": null,
+      "FareRemarkRef": null,
+      "Brand": null,
+      "Commission": null,
+      "FareAttributes": null,
+      "ChangePenalty": null,
+      "CancelPenalty": null,
+      "FareRulesFilter": null,
+      "Key": "rc8plgSqWDKARl7TSAAAAA==",
+      "FareBasis": "GDACFR",
+      "PassengerTypeCode": "ADT",
+      "Origin": "CXB",
+      "Destination": "DAC",
+      "EffectiveDate": "2023-05-23T09:47:00.000+06:00",
+      "TravelDateSpecified": false,
+      "DepartureDate": "2023-07-28T00:00:00",
+      "DepartureDateSpecified": true,
+      "Amount": "BDT4275",
+      "PrivateFare": 3,
+      "PrivateFareSpecified": true,
+      "NegotiatedFare": false,
+      "NegotiatedFareSpecified": true,
+      "TourCode": null,
+      "WaiverCode": null,
+      "NotValidBeforeSpecified": false,
+      "NotValidAfterSpecified": false,
+      "PseudoCityCode": "8I3E",
+      "FareFamily": null,
+      "PromotionalFareSpecified": false,
+      "CarCode": null,
+      "ValueCode": null,
+      "ElStatSpecified": false,
+      "KeyOverrideSpecified": false,
+      "BulkTicketSpecified": false,
+      "InclusiveTourSpecified": false,
+      "Value": null,
+      "SupplierCode": null,
+      "TaxAmount": null
+    },
+    {
+      "FareTicketDesignator": null,
+      "TicketingCode": null,
+      "FareSurcharge": null,
+      "AccountCode": null,
+      "ContractCode": null,
+      "Endorsement": null,
+      "BaggageAllowance": {
+        "NumberOfPieces": null,
+        "MaxWeight": {
+          "Value": "20",
+          "Unit": 0,
+          "UnitSpecified": true
+        }
+      },
+      "FareRuleKey": {
+        "FareInfoRef": "rc8plgSqWDKAel7TSAAAAA==",
+        "ProviderCode": "1G",
+        "Value": "gws-eJxNjrEOwyAMRD8muv1saOhIgERZQoZmaJb+/2fUkFSqJfsOHtiOMSrV8aEu/seAz5BeSOUAKmiZ3wneBQ+xwwmKztjLvo0beocg3kDt8FJpz5g1exMsXPRCLXD2WqZsjL2vqaDNRbP2Az8zr2brVI5UqOTT7vRGDLA1v/UKKoo="
       },
       "FareRuleFailureInfo": null,
       "FareRemarkRef": null,
@@ -3119,16 +3886,17 @@
         "UpsellBrand": null,
         "ApplicableSegment": null,
         "DefaultBrandDetail": null,
-        "Key": "rT5plgTqWDKAd2gsSAAAAA==",
-        "BrandID": "1187993",
+        "Key": "rc8plgSqWDKAPm7TSAAAAA==",
+        "BrandID": "1187992",
         "Name": null,
         "AirItineraryDetailsRef": null,
         "UpSellBrandID": null,
         "BrandFoundSpecified": false,
-        "UpSellBrandFoundSpecified": false,
+        "UpSellBrandFound": false,
+        "UpSellBrandFoundSpecified": true,
         "BrandedDetailsAvailableSpecified": false,
         "Carrier": null,
-        "BrandTier": "0001",
+        "BrandTier": "0002",
         "BrandMaintained": null
       },
       "Commission": null,
@@ -3136,16 +3904,16 @@
       "ChangePenalty": null,
       "CancelPenalty": null,
       "FareRulesFilter": null,
-      "Key": "rT5plgTqWDKAg1gsSAAAAA==",
-      "FareBasis": "IDOM6M",
+      "Key": "rc8plgSqWDKAel7TSAAAAA==",
+      "FareBasis": "ODOM6M",
       "PassengerTypeCode": "ADT",
-      "Origin": "CXB",
-      "Destination": "DAC",
-      "EffectiveDate": "2023-05-23T09:37:00.000+06:00",
+      "Origin": "DAC",
+      "Destination": "CXB",
+      "EffectiveDate": "2023-05-23T09:47:00.000+06:00",
       "TravelDateSpecified": false,
-      "DepartureDate": "2023-07-28T00:00:00",
+      "DepartureDate": "2023-07-14T00:00:00",
       "DepartureDateSpecified": true,
-      "Amount": "BDT4075",
+      "Amount": "BDT4374",
       "PrivateFareSpecified": false,
       "NegotiatedFare": false,
       "NegotiatedFareSpecified": true,
@@ -3183,96 +3951,59 @@
         }
       },
       "FareRuleKey": {
-        "FareInfoRef": "rT5plgTqWDKAD2gsSAAAAA==",
+        "FareInfoRef": "rc8plgSqWDKAll7TSAAAAA==",
         "ProviderCode": "1G",
-        "Value": "gws-eJxNT10PwiAM/DHm3guMAW/7YM4lOhOzqHvx//8Mr6DGEkrTu16PruusWCfeuu4/DsDOg9yP5wUrDJgaEq0NQFzcpA0xytFEHtY+b3eXTHzk60XEi4iJKf3GypQ2cRhmDHkrErzjcyApeCqt1BKXWsxUPN5QzAXTEFgLWLOuFJnaseGD3OamQhrYS1ZHXFZ061K8+CvRAL7FdGKpxqvnyJ7/QBJAm2+NAD4c"
+        "Value": "gws-eJxNjrEOwyAMRD8muv0wtGQkQKIuIUMzNEv//zN6oalUS/YdPLCdUjKa5818+o8B7yE/kesONFBZp4LgY4DpcIDOZmx1W+8reodoo0Dr8KvufMZiJUiwcLGOjqa4anllMfa+UodzLk6rH/iZ+SHbprrnSiNH3dmFGKE1P/SYKps="
       },
       "FareRuleFailureInfo": null,
       "FareRemarkRef": null,
-      "Brand": null,
+      "Brand": {
+        "Title": null,
+        "Text": null,
+        "ImageLocation": null,
+        "OptionalServices": null,
+        "Rules": null,
+        "ServiceAssociations": null,
+        "UpsellBrand": null,
+        "ApplicableSegment": null,
+        "DefaultBrandDetail": null,
+        "Key": "rc8plgSqWDKARm7TSAAAAA==",
+        "BrandID": "1187992",
+        "Name": null,
+        "AirItineraryDetailsRef": null,
+        "UpSellBrandID": null,
+        "BrandFoundSpecified": false,
+        "UpSellBrandFound": false,
+        "UpSellBrandFoundSpecified": true,
+        "BrandedDetailsAvailableSpecified": false,
+        "Carrier": null,
+        "BrandTier": "0002",
+        "BrandMaintained": null
+      },
       "Commission": null,
       "FareAttributes": null,
       "ChangePenalty": null,
       "CancelPenalty": null,
       "FareRulesFilter": null,
-      "Key": "rT5plgTqWDKAD2gsSAAAAA==",
-      "FareBasis": "GDACFR",
-      "PassengerTypeCode": "ADT",
-      "Origin": "DAC",
-      "Destination": "CXB",
-      "EffectiveDate": "2023-05-23T09:37:00.000+06:00",
-      "TravelDateSpecified": false,
-      "DepartureDate": "2023-07-14T00:00:00",
-      "DepartureDateSpecified": true,
-      "Amount": "BDT4275",
-      "PrivateFare": 3,
-      "PrivateFareSpecified": true,
-      "NegotiatedFare": false,
-      "NegotiatedFareSpecified": true,
-      "TourCode": null,
-      "WaiverCode": null,
-      "NotValidBeforeSpecified": false,
-      "NotValidAfterSpecified": false,
-      "PseudoCityCode": "8I3E",
-      "FareFamily": null,
-      "PromotionalFareSpecified": false,
-      "CarCode": null,
-      "ValueCode": null,
-      "ElStatSpecified": false,
-      "KeyOverrideSpecified": false,
-      "BulkTicketSpecified": false,
-      "InclusiveTourSpecified": false,
-      "Value": null,
-      "SupplierCode": null,
-      "TaxAmount": null
-    },
-    {
-      "FareTicketDesignator": null,
-      "TicketingCode": null,
-      "FareSurcharge": null,
-      "AccountCode": null,
-      "ContractCode": null,
-      "Endorsement": null,
-      "BaggageAllowance": {
-        "NumberOfPieces": null,
-        "MaxWeight": {
-          "Value": "20",
-          "Unit": 0,
-          "UnitSpecified": true
-        }
-      },
-      "FareRuleKey": {
-        "FareInfoRef": "rT5plgTqWDKAK2gsSAAAAA==",
-        "ProviderCode": "1G",
-        "Value": "gws-eJxNT9EOwiAM/Jjl3rsCA97YxpxLFBOzqHvx/z/Dlk1jCUdz1/ZKSomJDTk26T8aYJOD3I+XBQUMASuFzB4Ii5mUoFZrFKQOpc/rw8Q2PPPtSuSIqA0x/tpql5JohhlDXusIudps2TtxKTKLTOwwC3m6oy7nOYhQqrijWhJN3WjlQe6yrdJWJA4cX4Oa1bm7Kd7yK9IAvsl0llQX33cOwrlDIg9Z8wONhz4u"
-      },
-      "FareRuleFailureInfo": null,
-      "FareRemarkRef": null,
-      "Brand": null,
-      "Commission": null,
-      "FareAttributes": null,
-      "ChangePenalty": null,
-      "CancelPenalty": null,
-      "FareRulesFilter": null,
-      "Key": "rT5plgTqWDKAK2gsSAAAAA==",
-      "FareBasis": "GDACFR",
+      "Key": "rc8plgSqWDKAll7TSAAAAA==",
+      "FareBasis": "ODOM6M",
       "PassengerTypeCode": "ADT",
       "Origin": "CXB",
       "Destination": "DAC",
-      "EffectiveDate": "2023-05-23T09:37:00.000+06:00",
+      "EffectiveDate": "2023-05-23T09:47:00.000+06:00",
       "TravelDateSpecified": false,
       "DepartureDate": "2023-07-28T00:00:00",
       "DepartureDateSpecified": true,
-      "Amount": "BDT4275",
-      "PrivateFare": 3,
-      "PrivateFareSpecified": true,
+      "Amount": "BDT4374",
+      "PrivateFareSpecified": false,
       "NegotiatedFare": false,
       "NegotiatedFareSpecified": true,
       "TourCode": null,
       "WaiverCode": null,
       "NotValidBeforeSpecified": false,
-      "NotValidAfterSpecified": false,
-      "PseudoCityCode": "8I3E",
+      "NotValidAfter": "2024-01-14T00:00:00",
+      "NotValidAfterSpecified": true,
+      "PseudoCityCode": null,
       "FareFamily": null,
       "PromotionalFareSpecified": false,
       "CarCode": null,
@@ -3295,7 +4026,7 @@
   "NextResultReference": null,
   "ResponseMessage": null,
   "TraceId": "SHA999191426-638199205354972218",
-  "TransactionId": "46AF56DF0A0D6A932FA9B85A92C770CB",
-  "ResponseTime": "227",
+  "TransactionId": "46B832440A0D6A9239168576676F29ED",
+  "ResponseTime": "170",
   "CommandHistory": null
 }
